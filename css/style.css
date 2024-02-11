@@ -122,7 +122,8 @@ main .main-buttons div {
 main .main-buttons button {
   height: 36px;
   background-color: #f2f2f2;
-  border: 0;
+  /* Se le pone un borde transparente para que cuando se haga hover no se mueva el elemento al agregar un borde */
+  border: 1px solid transparent;
   font-size: 1.4rem;
   color: #5f6368;
   border-radius: 5px;
@@ -151,21 +152,21 @@ footer {
 }
 
 footer ul {
-    margin: 10px;
-    list-style: none;
-    display: flex;
-    padding-left: 0;
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
 }
 
 footer .footer-left {
-    justify-self: left;
+  justify-self: left;
 }
 
 footer .footer-right {
-    justify-self: right;
+  justify-self: right;
 }
 
 footer ul li a {
-    margin: 10px;
-    color: #5f6368;
+  margin: 10px;
+  color: #5f6368;
 }
